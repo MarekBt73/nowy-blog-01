@@ -7,6 +7,7 @@ import styled from "styled-components"
 
 const StyleWrapper = styled.div`
 min-height: 100px;
+
 `
 
 
@@ -20,7 +21,7 @@ const Header = ({ siteTitle }) => (
   >
 
  <StyleWrapper className="container">
-  <div className="row d-flex flex-wrap justify-content-center py-3 mb-4 ">
+  <div className="row d-flex flex-wrap justify-content-center ">
   <div className="col-12 col-md-6 ">
   <h1 className="logo1"  style={{ margin: 0 }}>
         <Link
